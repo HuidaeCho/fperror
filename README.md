@@ -1,11 +1,9 @@
 # Demonstration of a floating-point error in double-precision accumulation
 
 ```bash
-$ make
+$ make fperror
 cc -Wall -Werror   -c -o fperror.o fperror.c
 cc  -o fperror fperror.o
-cc -Wall -Werror   -c -o fperror_float.o fperror_float.c
-cc  -o fperror_float fperror_float.o
 
 $ ./fperror
 # Demonstration of a floating-point error in double-precision accumulation
@@ -31,6 +29,10 @@ Accumulating distances...
 ## Accumulation of a float constant of sqrt(), the function itself, and its direct multiplication
 
 ```
+$ make fperror_float
+cc -Wall -Werror   -c -o fperror_float.o fperror_float.c
+cc  -o fperror_float fperror_float.o
+
 $ ./fperror_float
 init=210.0000000000
 x=210.0000000000
