@@ -26,7 +26,11 @@ Accumulating distances...
 * lo == loa?                            1 (correct)
 * ld == lda?                            0 (incorrect but expected)
 * loa > lda?                            0 (incorrect and not desired)
+```
 
+## Accumulation of a float constant of sqrt(), ths function itself, and its direct multiplication
+
+```
 $ ./fperror_float
 init=210.0000000000
 x=210.0000000000
