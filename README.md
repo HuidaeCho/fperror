@@ -28,7 +28,7 @@ Accumulating distances...
 * loa > lda?                            0 (incorrect and not desired)
 ```
 
-## Accumulation of a float constant of sqrt(), ths function itself, and its direct multiplication
+## Accumulation of a float constant of sqrt(), the function itself, and its direct multiplication
 
 ```
 $ ./fperror_float
